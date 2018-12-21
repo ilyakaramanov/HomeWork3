@@ -15,8 +15,9 @@ public class SecondVersion {
             trimmedSentences[i] = sentences[i].trim();               //Обрезаю лишние пробелы и формирую новый массив
         }
 
-        /* Сортирую предложения по количеству слов
-         * */
+        /*
+        Сортирую предложения по количеству слов
+         */
 
         boolean sort = false;
         String temp;

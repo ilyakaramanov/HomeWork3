@@ -20,8 +20,9 @@ public class FirstVersion {
             trimmedSentences.add(sentences.get(i).trim());       //Обрезаю лишние пробелы и формирую новый массив
         }
 
-        /* Сортирую предложения по количеству слов
-         * */
+        /*
+        Сортирую предложения по количеству слов
+        */
         for (int i = trimmedSentences.size() - 1; i > 0; i--) {
             for (int j = 0; j < i; j++) {
                 if (trimmedSentences.get(j).split(" ").length > trimmedSentences.get(j + 1).split(" ").length) {
